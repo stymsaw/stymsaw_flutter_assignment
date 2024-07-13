@@ -10,7 +10,7 @@ abstract class AppRoutes {
 
   static final routes = [
     GetPage(name: splashScreen, page: () => SplashScreen()),
-    GetPage(name: firstScreen, page: () => const FirstScreen()),
-    GetPage(name: secondScreen, page: () => const SecondScreen()),
+    GetPage(name: firstScreen, page: () => FirstScreen()),
+    GetPage(name: secondScreen, page: () => SecondScreen()),
   ];
 }
